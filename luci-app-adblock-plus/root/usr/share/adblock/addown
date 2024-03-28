@@ -1,0 +1,38 @@
+#!/bin/sh
+[ "$1" = --down ] || exit 1
+# Prevent repeated starts
+LOCK=/var/lock/addown.lock
+[ -f $LOCK ] && exit 1
+touch $LOCK
+
+AD_WORK_PATH=/tmp/adblock
+LOG=/tmp/adupdate.log
+FMT_DT="date +'%Y-%m-%d %H:%M:%S'"
+_3RD_URL="$(uci -q get adblock.@adblock[0].url)"
+
+check_net() {
+    uclient-fetch --no-check-certificate --timeout=5 --quiet https://anti-ad.net -O /dev/null
+}
+
+mkdir -p $AD_WORK_PATH
+
+[ -z "$_3RD_URL" ] && echo "$(eval "$FMT_DT") [Subscription is empty]" >$LOG && exit 0
+
+echo "$(eval "$FMT_DT") [Check network status]" >$LOG
+
+while ! check_net; do
+    grep "Wait" -q $LOG || echo "$(eval "$FMT_DT") [Wait for network to connect]" >>$LOG
+    sleep 2
+done
+{
+    echo "$(eval "$FMT_DT") [Check network status Successful]"
+    echo "$(eval "$FMT_DT") [Download Subscribe Rules]"
+} >>$LOG
+/usr/share/adblock/adblock addown >>$LOG
+
+if [ ! -s $AD_WORK_PATH/failed ]; then
+    echo "$(eval "$FMT_DT") [Start Adblock Plus+]" >>$LOG
+    update_time="$(eval "${FMT_DT}")" && echo "${update_time}" >$AD_WORK_PATH/adblock.updated
+    /etc/init.d/adblock start >>$LOG &
+fi
+rm -f $LOCK

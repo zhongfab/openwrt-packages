@@ -1,0 +1,10 @@
+#!/bin/sh
+# Prevent repeated starts
+readonly LOCK=/var/lock/adip.lock
+[ -f $LOCK ] && exit 1
+touch $LOCK
+ipset -F blockip 2>/dev/null || exit 1
+while IFS= read -r line; do
+    ipset add blockip "$line" 2>/dev/null
+done </etc/adblock/ip.list
+rm -f $LOCK

@@ -1,0 +1,16 @@
+#!/bin/sh
+# Prevent repeated starts
+readonly LOCK=/var/lock/adwhite.lock
+[ "$(uci -q get adblock.@adblock[0].enable)" = 0 ] && exit 1
+[ -f $LOCK ] && exit 1
+touch $LOCK
+FMT_DT="date +'%Y-%m-%d %H:%M:%S'"
+
+while IFS= read -r line; do
+    [ -s /tmp/adblock/3rd/3rd.conf ] && sed -i -e "/\/$line\//d" -e "/\.$line\//d" /tmp/adblock/3rd/3rd.conf 2>/dev/null
+    [ -s /etc/adblock/3rd/3rd.conf ] && sed -i -e "/\/$line\//d" -e "/\.$line\//d" /etc/adblock/3rd/3rd.conf
+done </etc/adblock/white.list
+echo "$(eval "$FMT_DT") [Restart Dnsmasq]"
+/etc/init.d/dnsmasq restart >/dev/null 2>&1
+
+rm -f $LOCK
