@@ -1,0 +1,29 @@
+{
+  "easy_create_filter": {
+    "message": "Blokovat prvek"
+  },
+  "options_refresh": {
+    "message": "Obnovit"
+  },
+  "options_short": {
+    "message": "Možnosti"
+  },
+  "overlay_notification_closing_button_optout": {
+    "message": "Přestaň ukazovat oznámení"
+  },
+  "refresh_this_page": {
+    "message": "Obnovit stránku"
+  },
+  "sendReport": {
+    "message": "Nahlásit problém"
+  },
+  "stats_label_page": {
+    "message": "na této stránce"
+  },
+  "stats_label_total": {
+    "message": "celkem"
+  },
+  "status_page": {
+    "message": "Tato stránka:"
+  }
+}
