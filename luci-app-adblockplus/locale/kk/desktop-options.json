@@ -1,0 +1,23 @@
+{
+  "options_acceptableAds_header": {
+    "message": "Мазасыз жарнама"
+  },
+  "options_close": {
+    "message": "жабу"
+  },
+  "options_customFilter_cancel": {
+    "message": "Бас тарту"
+  },
+  "options_email": {
+    "message": "Эл. пошта:"
+  },
+  "options_filterList_column_status": {
+    "message": "Күйі"
+  },
+  "options_filterList_lastDownload_checksumMismatch": {
+    "message": "Қате, тексеру сомасы сәйкес емес"
+  },
+  "options_filterList_lastDownload_invalidURL": {
+    "message": "Қате, дұрыс адрес емес"
+  }
+}
