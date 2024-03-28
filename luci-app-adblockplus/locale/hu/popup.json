@@ -1,0 +1,120 @@
+{
+  "block_element_description": {
+    "message": "A weboldal bizonyos elemeinek blokkolása"
+  },
+  "browser_store_android": {
+    "message": "Android alkalmazás a Google Play áruházban"
+  },
+  "browser_store_ios": {
+    "message": "Elérhető az iTunes App Store boltban"
+  },
+  "click_element_to_block_it": {
+    "message": "Az elem blokkolásához kattintson egy elemre az oldalon."
+  },
+  "connect_on_facebook": {
+    "message": "Csatlakozás a Facebook-on"
+  },
+  "connect_on_twitter": {
+    "message": "Csatlakozás a Twitter-en"
+  },
+  "easy_create_filter": {
+    "message": "Elem blokkolása"
+  },
+  "footer_donate_button": {
+    "message": "Adomány"
+  },
+  "footer_donate_description": {
+    "message": "Támogatni szeretnéd az ABP-t?"
+  },
+  "footer_get_help_button": {
+    "message": "Támogatás"
+  },
+  "footer_get_help_description": {
+    "message": "Gond van az ABP használatával?"
+  },
+  "footer_mobile_description": {
+    "message": "Érdekel az ABP mobil változata?"
+  },
+  "footer_rate_button": {
+    "message": "ABP érték"
+  },
+  "footer_rate_description": {
+    "message": "Tetszik a bővítmény?"
+  },
+  "footer_social_description": {
+    "message": "Maradj velünk kapcsolatban!"
+  },
+  "idle_header": {
+    "message": "Nincs mit blokkolni ezen az oldalon!"
+  },
+  "options_refresh": {
+    "message": "Frissítés"
+  },
+  "options_short": {
+    "message": "Beállítások"
+  },
+  "overlay_notification_closing_button_hide": {
+    "message": "Bezárás"
+  },
+  "overlay_notification_closing_button_optout": {
+    "message": "Ne jelenjenek meg értesítések"
+  },
+  "premium_upgrade": {
+    "message": "Magasabb verzióra frissítés"
+  },
+  "refresh_this_page": {
+    "message": "Oldal frissítése"
+  },
+  "refresh_to_take_effect": {
+    "message": "A módosítások érvényesítéséhez kattintson az alábbi gombra."
+  },
+  "sendReport": {
+    "message": "Probléma jelentése az oldalon"
+  },
+  "share_on_facebook": {
+    "message": "Megosztás a Facebook-on"
+  },
+  "share_on_twitter": {
+    "message": "Megosztás a Twitter-en"
+  },
+  "share_on_twitter_message": {
+    "message": "Az Adblock Plus alkalmazással $number$ reklámot blokkoltam. Próbálja ki, INGYENES!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "share_on_weibo": {
+    "message": "Megosztás a Weibo mikroblog weboldalon"
+  },
+  "share_on_weibo_message": {
+    "message": "Az Adblock Plus alkalmazással $number$ reklámot blokkoltam. Próbálja ki, INGYENES!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "social_media_share": {
+    "message": "Számok megosztása a barátaival"
+  },
+  "stats_header": {
+    "message": "Blokkolt elemek száma"
+  },
+  "stats_label_page": {
+    "message": "ezen az oldalon"
+  },
+  "stats_label_total": {
+    "message": "összesen"
+  },
+  "status_domain": {
+    "message": "Ez a weboldal:"
+  },
+  "status_header": {
+    "message": "Reklámblokkoló bekapcsolva"
+  },
+  "status_page": {
+    "message": "Ez az oldal:"
+  }
+}
