@@ -1,0 +1,120 @@
+{
+  "block_element_description": {
+    "message": "Bloquez des éléments spécifiques sur ce site web"
+  },
+  "browser_store_android": {
+    "message": "Application Android sur Google Play"
+  },
+  "browser_store_ios": {
+    "message": "Disponible sur l'App Store iTunes"
+  },
+  "click_element_to_block_it": {
+    "message": "Cliquez sur un élément de la page pour le bloquer."
+  },
+  "connect_on_facebook": {
+    "message": "Connectez-vous sur Facebook"
+  },
+  "connect_on_twitter": {
+    "message": "Connectez-vous sur Twitter"
+  },
+  "easy_create_filter": {
+    "message": "Bloquer l’élément"
+  },
+  "footer_donate_button": {
+    "message": "Faire un don"
+  },
+  "footer_donate_description": {
+    "message": "Souhaitez-vous soutenir ABP ?"
+  },
+  "footer_get_help_button": {
+    "message": "Aide"
+  },
+  "footer_get_help_description": {
+    "message": "Vous avez du mal à utiliser ABP ?"
+  },
+  "footer_mobile_description": {
+    "message": "Souhaitez-vous ABP sur votre mobile ?"
+  },
+  "footer_rate_button": {
+    "message": "Évaluez ABP"
+  },
+  "footer_rate_description": {
+    "message": "L'extension vous convient-elle ?"
+  },
+  "footer_social_description": {
+    "message": "Restez connecté avec nous !"
+  },
+  "idle_header": {
+    "message": "Il n'y a rien à bloquer sur cette page !"
+  },
+  "options_refresh": {
+    "message": "Actualiser"
+  },
+  "options_short": {
+    "message": "Options"
+  },
+  "overlay_notification_closing_button_hide": {
+    "message": "Fermer"
+  },
+  "overlay_notification_closing_button_optout": {
+    "message": "Cesser d'afficher les notifications"
+  },
+  "premium_upgrade": {
+    "message": "Mise à jour"
+  },
+  "refresh_this_page": {
+    "message": "Rafraîchir cette page"
+  },
+  "refresh_to_take_effect": {
+    "message": "Cliquez sur le bouton ci-dessous pour que les modifications soient prises en compte."
+  },
+  "sendReport": {
+    "message": "Rédiger un rapport sur cette page"
+  },
+  "share_on_facebook": {
+    "message": "Partagez sur Facebook"
+  },
+  "share_on_twitter": {
+    "message": "Partagez sur Twitter"
+  },
+  "share_on_twitter_message": {
+    "message": "J'ai bloqué $number$ pubs avec Adblock Plus. Faites un essai - c'est GRATUIT !",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "share_on_weibo": {
+    "message": "Partagez sur Weibo"
+  },
+  "share_on_weibo_message": {
+    "message": "J'ai bloqué $number$ pubs avec Adblock Plus. Faites un essai - c'est GRATUIT !",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "social_media_share": {
+    "message": "Partagez des numéros avec des amis"
+  },
+  "stats_header": {
+    "message": "Nombre d’éléments bloqués"
+  },
+  "stats_label_page": {
+    "message": "sur cette page"
+  },
+  "stats_label_total": {
+    "message": "au total"
+  },
+  "status_domain": {
+    "message": "Ce site web :"
+  },
+  "status_header": {
+    "message": "Bloquer les publicités sur"
+  },
+  "status_page": {
+    "message": "Cette page :"
+  }
+}
