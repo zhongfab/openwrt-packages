@@ -1,0 +1,120 @@
+{
+  "block_element_description": {
+    "message": "Specifieke elementen op deze website blokkeren"
+  },
+  "browser_store_android": {
+    "message": "Android-app op Google Play"
+  },
+  "browser_store_ios": {
+    "message": "Beschikbaar op de iTunes App Store"
+  },
+  "click_element_to_block_it": {
+    "message": "Klik op een element op de pagina om het te blokkeren."
+  },
+  "connect_on_facebook": {
+    "message": "Bezoek ons op Facebook"
+  },
+  "connect_on_twitter": {
+    "message": "Bezoek ons op Twitter"
+  },
+  "easy_create_filter": {
+    "message": "Element blokkeren"
+  },
+  "footer_donate_button": {
+    "message": "Doneer"
+  },
+  "footer_donate_description": {
+    "message": "Wilt u ABP ondersteunen?"
+  },
+  "footer_get_help_button": {
+    "message": "Krijg hulp"
+  },
+  "footer_get_help_description": {
+    "message": "Problemen bij gebruik van ABP?"
+  },
+  "footer_mobile_description": {
+    "message": "Interesse in mobiele ABP?"
+  },
+  "footer_rate_button": {
+    "message": "Rate ABP"
+  },
+  "footer_rate_description": {
+    "message": "Bevalt de extensie u?"
+  },
+  "footer_social_description": {
+    "message": "Blijf verbonden met ons!"
+  },
+  "idle_header": {
+    "message": "Er is niets te blokkeren op deze pagina!"
+  },
+  "options_refresh": {
+    "message": "Vernieuwen"
+  },
+  "options_short": {
+    "message": "Opties"
+  },
+  "overlay_notification_closing_button_hide": {
+    "message": "Sluiten"
+  },
+  "overlay_notification_closing_button_optout": {
+    "message": "Tonen van meldingen stoppen"
+  },
+  "premium_upgrade": {
+    "message": "Upgraden"
+  },
+  "refresh_this_page": {
+    "message": "Deze pagina vernieuwen"
+  },
+  "refresh_to_take_effect": {
+    "message": "Klik op de knop hieronder om wijzigingen door te voeren."
+  },
+  "sendReport": {
+    "message": "Een probleem op deze pagina melden"
+  },
+  "share_on_facebook": {
+    "message": "Delen op Facebook"
+  },
+  "share_on_twitter": {
+    "message": "Delen op Twitter"
+  },
+  "share_on_twitter_message": {
+    "message": "Ik heb reclame geblokkeerd $number$ met Adblock Plus. Probeer het eens - het is GRATIS!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "share_on_weibo": {
+    "message": "Delen op Weibo"
+  },
+  "share_on_weibo_message": {
+    "message": "Ik heb reclame geblokkeerd $number$ met Adblock Plus. Probeer het eens - het is GRATIS!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "social_media_share": {
+    "message": "Aantallen delen met vrienden"
+  },
+  "stats_header": {
+    "message": "Aantal geblokkeerde items"
+  },
+  "stats_label_page": {
+    "message": "op deze pagina"
+  },
+  "stats_label_total": {
+    "message": "in totaal"
+  },
+  "status_domain": {
+    "message": "Deze website:"
+  },
+  "status_header": {
+    "message": "Advertenties blokkeren op"
+  },
+  "status_page": {
+    "message": "Deze pagina:"
+  }
+}

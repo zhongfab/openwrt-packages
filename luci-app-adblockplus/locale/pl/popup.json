@@ -1,0 +1,120 @@
+{
+  "block_element_description": {
+    "message": "Blokuj konkretny element na tej stronie"
+  },
+  "browser_store_android": {
+    "message": "Aplikacja na Androida w Google Play"
+  },
+  "browser_store_ios": {
+    "message": "Dostępna w iTunes App Store"
+  },
+  "click_element_to_block_it": {
+    "message": "Kliknij element strony, aby go zablokować."
+  },
+  "connect_on_facebook": {
+    "message": "Połącz się na Facebooku"
+  },
+  "connect_on_twitter": {
+    "message": "Połącz się na Twitterze"
+  },
+  "easy_create_filter": {
+    "message": "Zablokuj element"
+  },
+  "footer_donate_button": {
+    "message": "Wesprzyj"
+  },
+  "footer_donate_description": {
+    "message": "Chcesz wesprzeć ABP?"
+  },
+  "footer_get_help_button": {
+    "message": "Pomoc"
+  },
+  "footer_get_help_description": {
+    "message": "Masz problem z używaniem ABP?"
+  },
+  "footer_mobile_description": {
+    "message": "Interesuje Cię ABP na komórkę?"
+  },
+  "footer_rate_button": {
+    "message": "Oceń ABP"
+  },
+  "footer_rate_description": {
+    "message": "Podoba Ci się to rozszerzenie?"
+  },
+  "footer_social_description": {
+    "message": "Bądź z nami w kontakcie!"
+  },
+  "idle_header": {
+    "message": "Na tej stronie nie ma nic do zablokowania!"
+  },
+  "options_refresh": {
+    "message": "Odśwież"
+  },
+  "options_short": {
+    "message": "Opcje"
+  },
+  "overlay_notification_closing_button_hide": {
+    "message": "Zamknij"
+  },
+  "overlay_notification_closing_button_optout": {
+    "message": "Przestań wyświetlać powiadomienia"
+  },
+  "premium_upgrade": {
+    "message": "Dokonaj upgrade'u"
+  },
+  "refresh_this_page": {
+    "message": "Odśwież tę stronę"
+  },
+  "refresh_to_take_effect": {
+    "message": "Kliknij poniższy przycisk, aby wprowadzić zmiany."
+  },
+  "sendReport": {
+    "message": "Zgłoś problem na tej stronie"
+  },
+  "share_on_facebook": {
+    "message": "Podziel się na Facebooku"
+  },
+  "share_on_twitter": {
+    "message": "Podziel się na Twitterze"
+  },
+  "share_on_twitter_message": {
+    "message": "Zablokowałem/am $number$ reklam z Adblock Plus. Też go wypróbuj - ZA DARMO!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "share_on_weibo": {
+    "message": "Udostępnij na Weibo"
+  },
+  "share_on_weibo_message": {
+    "message": "Zablokowałem/am $number$ reklam z Adblock Plus. Też go wypróbuj - ZA DARMO!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "social_media_share": {
+    "message": "Podziel się tą liczbą ze znajomymi"
+  },
+  "stats_header": {
+    "message": "Liczba zablokowanych elementów"
+  },
+  "stats_label_page": {
+    "message": "na tej stronie"
+  },
+  "stats_label_total": {
+    "message": "w sumie"
+  },
+  "status_domain": {
+    "message": "Ta strona internetowa:"
+  },
+  "status_header": {
+    "message": "Blokuj reklamy na"
+  },
+  "status_page": {
+    "message": "Ta strona:"
+  }
+}

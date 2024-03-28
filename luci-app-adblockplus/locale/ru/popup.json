@@ -1,0 +1,120 @@
+{
+  "block_element_description": {
+    "message": "Заблокировать определенный элемент на этом вебсайте"
+  },
+  "browser_store_android": {
+    "message": "Приложение Android на Google Play"
+  },
+  "browser_store_ios": {
+    "message": "Доступно в App Store iTunes"
+  },
+  "click_element_to_block_it": {
+    "message": "Нажмите на элемент на странице, чтобы заблокировать его."
+  },
+  "connect_on_facebook": {
+    "message": "Присоединяйтесь к нам в Facebook"
+  },
+  "connect_on_twitter": {
+    "message": "Следите за нами в Twitter"
+  },
+  "easy_create_filter": {
+    "message": "Заблокировать элемент"
+  },
+  "footer_donate_button": {
+    "message": "Жертвовать"
+  },
+  "footer_donate_description": {
+    "message": "Хотите поддержать ABP?"
+  },
+  "footer_get_help_button": {
+    "message": "Помощь"
+  },
+  "footer_get_help_description": {
+    "message": "Проблемы с ABP?"
+  },
+  "footer_mobile_description": {
+    "message": "Ищете ABP в мобильном формате?"
+  },
+  "footer_rate_button": {
+    "message": "Оценить"
+  },
+  "footer_rate_description": {
+    "message": "Нравится расширение?"
+  },
+  "footer_social_description": {
+    "message": "Оставайтесь на связи!"
+  },
+  "idle_header": {
+    "message": "На этой странице нечего блокировать!"
+  },
+  "options_refresh": {
+    "message": "Обновить"
+  },
+  "options_short": {
+    "message": "Настройки"
+  },
+  "overlay_notification_closing_button_hide": {
+    "message": "Закрыть"
+  },
+  "overlay_notification_closing_button_optout": {
+    "message": "Запретить показ уведомлений"
+  },
+  "premium_upgrade": {
+    "message": "Сделать апгрейд"
+  },
+  "refresh_this_page": {
+    "message": "Обновите данную страницу"
+  },
+  "refresh_to_take_effect": {
+    "message": "Щёлкните кнопку внизу, чтобы изменения вступили в силу."
+  },
+  "sendReport": {
+    "message": "Сообщить о проблеме на этой странице"
+  },
+  "share_on_facebook": {
+    "message": "Поделиться в Facebook"
+  },
+  "share_on_twitter": {
+    "message": "Поделиться в Twitter"
+  },
+  "share_on_twitter_message": {
+    "message": "Я заблокировал(-а) $number$ рекламных объявлений с Adblock Plus. Попробуйте и вы – это БЕСПЛАТНО!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "share_on_weibo": {
+    "message": "Поделиться в Weibo"
+  },
+  "share_on_weibo_message": {
+    "message": "Я заблокировал(-а) $number$ рекламных объявлений с Adblock Plus. Попробуйте и вы – это БЕСПЛАТНО!",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "social_media_share": {
+    "message": "Поделитесь цифрами с друзьями"
+  },
+  "stats_header": {
+    "message": "Число заблокированных объектов"
+  },
+  "stats_label_page": {
+    "message": "на данной странице"
+  },
+  "stats_label_total": {
+    "message": "всего"
+  },
+  "status_domain": {
+    "message": "Данный сайт:"
+  },
+  "status_header": {
+    "message": "Блокировка рекламы включена"
+  },
+  "status_page": {
+    "message": "Данная страница:"
+  }
+}

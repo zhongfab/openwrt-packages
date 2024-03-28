@@ -1,0 +1,57 @@
+{
+  "filter_elemhide_not_specific_enough": {
+    "message": "De CSS-kiezer is te kort. Gebruik een langere kiezer of specificeer minstens één domein voor deze element verbergende filter."
+  },
+  "filter_elemhideemulation_nodomain": {
+    "message": "Geen actief domein aangegeven. Geef ten minste één domein op voor dit toegevoegde element om filters te verbergen."
+  },
+  "filter_invalid_csp": {
+    "message": "Ongeldige inhoud veiligheidsbeleid (syntaxis voldoet niet aan de norm)."
+  },
+  "filter_invalid_domain": {
+    "message": "Ongeldig of leeg domein. De domeinlijst moet één of meer domeinen bevatten, gescheiden door een komma (,), bijv. abc.com,def.com,ghi.com."
+  },
+  "filter_invalid_option": {
+    "message": "Ongeldige filteroptie"
+  },
+  "filter_invalid_regexp": {
+    "message": "Ongeldige reguliere expressie (de syntaxis voldoet niet aan de norm)."
+  },
+  "filter_slow": {
+    "message": "Trage filter. Controleer de lengte van het patroon en zorg ervoor dat het geen reguliere expressie bevat."
+  },
+  "filter_snippet_nodomain": {
+    "message": "Geen actief domein aangegeven. Geef ten minste één domein op voor dit toegevoegde element om filters te verbergen."
+  },
+  "filter_unknown_option": {
+    "message": "$option$ is geen geldige filteroptie.",
+    "placeholders": {
+      "option": {
+        "content": "$1",
+        "example": "foo"
+      }
+    }
+  },
+  "filter_url_not_specific_enough": {
+    "message": "Het URL-patroon is te kort. Gebruik een langer patroon of specificeer minstens één domein voor deze filter."
+  },
+  "line": {
+    "message": "Regel $number$: $message$",
+    "placeholders": {
+      "message": {
+        "content": "$2",
+        "example": "Some error on this line"
+      },
+      "number": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "too_many_filters": {
+    "message": "Maximum aantal filters bereikt. Verwijder andere filters van hetzelfde type voordat u nieuwe toevoegt."
+  },
+  "unexpected_filter_list_header": {
+    "message": "De headers voor filterlijsten worden alleen ondersteund in downloadbare filterlijsten."
+  }
+}
