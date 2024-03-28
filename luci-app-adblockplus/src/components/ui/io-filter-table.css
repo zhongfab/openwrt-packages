@@ -1,0 +1,151 @@
+/*
+ * This file is part of Adblock Plus <https://adblockplus.org/>,
+ * Copyright (C) 2006-present eyeo GmbH
+ *
+ * Adblock Plus is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * Adblock Plus is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@import "../../theme/ui/light.css";
+@import "./io-filter-search.css";
+@import "./io-filter-list.css";
+
+io-filter-table
+{
+  display: flex;
+  flex-direction: column;
+}
+
+io-filter-table[disabled]
+{
+  opacity: 0.6;
+}
+
+io-filter-table > io-filter-search
+{
+  z-index: 1;
+}
+
+io-filter-table > io-filter-search > input
+{
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+io-filter-table > io-filter-list > table
+{
+  border-top: 0;
+}
+
+io-filter-table .footer
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  align-items: center;
+}
+
+io-filter-table .footer > *
+{
+  font-weight: 700;
+}
+
+io-filter-table .footer button
+{
+  padding: 4px;
+  text-transform: uppercase;
+}
+
+io-filter-table .footer button[disabled]
+{
+  display: none;
+}
+
+io-filter-table .footer button:not(:first-child)
+{
+  margin: auto 16px;
+}
+
+io-filter-table .footer .delete
+{
+  border: 2px solid var(--color-brand-primary);
+  color: var(--color-brand-primary);
+}
+
+io-filter-table .footer .copy
+{
+  border: 2px solid #337ba2;
+  color: #337ba2;
+}
+
+io-filter-table .footer button::before
+{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  transform: translateY(0.1em);
+}
+
+
+io-filter-table .footer .delete::before
+{
+  background-image: url(/skin/icons/trash.svg?error#error);
+}
+
+io-filter-table .footer .copy::before
+{
+  background-image: url(/skin/icons/copy.svg);
+}
+
+io-filter-table .footer ul.error
+{
+  border: 0;
+  padding: 0;
+  color: var(--color-error);
+  text-transform: none;
+  flex-grow: 1;
+  line-height: 1.9rem;
+  list-style: none;
+}
+
+io-filter-table .footer ul.error li
+{
+  padding: var(--padding-secondary) var(--padding-primary);
+  margin-bottom: var(--margin-secondary);
+  border-radius: 4px;
+  background-color: #ED1E4526;
+}
+
+io-filter-table .footer .error strong
+{
+  border: 1px dashed #bcbcbc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #F3F3F3;
+  color: #000;
+  font-family: monospace;
+}
+
+html:not([dir="rtl"]) io-filter-table .footer .delete::before,
+html:not([dir="rtl"]) io-filter-table .footer .copy::before
+{
+  margin-right: 4px;
+}
+
+html[dir="rtl"] io-filter-table .footer .delete::before,
+html[dir="rtl"] io-filter-table .footer .copy::before
+{
+  margin-left: 4px;
+}
