@@ -1,0 +1,70 @@
+{
+  "notification_updates_message": {
+    "description": "https://gitlab.com/eyeo/specs/spec/-/blob/a4651168848d564bfb9e59ecac1ed7432579d1b1/spec/abp/updates.md#notification-process",
+    "message": "No action is required—continue browsing the web without annoying ads! <a>See what's new</a>"
+  },
+  "notification_updates_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/-/blob/a4651168848d564bfb9e59ecac1ed7432579d1b1/spec/abp/updates.md#notification-process",
+    "message": "Adblock Plus is up-to-date"
+  },
+  "updates_subtitle": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3488ef98776e3109710026c8d9e945e67d7bc3ec/spec/abp/updates.md#header-content",
+    "message": "We think you'll like the latest updates."
+  },
+  "updates_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3488ef98776e3109710026c8d9e945e67d7bc3ec/spec/abp/updates.md#header-content",
+    "message": "Adblock Plus is up-to-date!"
+  },
+  "updates_update_i2_description": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "You can now visit websites in other languages and still have the ads blocked. When you visit a website in a specific language, you will be able to choose whether you want to block ads on all websites in that language. You can turn this option on/off in <strong>Settings > General > Language filter lists</strong>. The option is already available for our users on Chrome, Firefox and Microsoft Edge and is soon coming to Opera as well."
+  },
+  "updates_update_i2_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "Added notification option for available language filters"
+  },
+  "updates_update_i2_image": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "\"Notify me of available language filters\" is highlighted in the \"Language\" section of the options page."
+  },
+  "updates_update_i3_description": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "When you open the Adblock Plus menu from your toolbar icon, you'll see a new redesigned footer. From here, you can easily access interesting links to get more out of your product. Get support from the Help Center, get in touch with us on social media and more!"
+  },
+  "updates_update_i3_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "Added quick access links to the menu footer"
+  },
+  "updates_update_i4_description": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "If you're frequently adding custom filters to ABP, you'll now see more clear error messages if there's any issues. We hope this helps!"
+  },
+  "updates_update_i4_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "Updated filter validation messages"
+  },
+  "updates_update_f1_description": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "We've updated our wording in order to use <strong>allowlist</strong> moving forward."
+  },
+  "updates_update_f1_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "Updated our wording"
+  },
+  "updates_update_f2_description": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "You will now be notified when some filters in the downloadable filter lists are turned off so that you can re-enable them at your convenience."
+  },
+  "updates_update_f2_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "Add option to re-enable filters in downloadable filter lists"
+  },
+  "updates_update_f3_description": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "We've updated the link behind the \"Rate it\" button on Microsoft Edge so that it points to the correct add-ons store."
+  },
+  "updates_update_f3_title": {
+    "description": "https://gitlab.com/eyeo/specs/spec/blob/3847450caab5a3d58b57965e0ce566d3eb41c396/spec/abp/updates.md#current-updates",
+    "message": "Fixed wrong link behind the \"Rate it\" button"
+  }
+}
